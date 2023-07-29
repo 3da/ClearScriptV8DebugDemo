@@ -12,7 +12,7 @@ namespace ClearScriptV8DebugDemo.WebApp
         {
             _port = port;
 
-            _client.Timeout = TimeSpan.FromSeconds(2);
+            _client.Timeout = TimeSpan.FromSeconds(3);
         }
 
         public void Dispose()

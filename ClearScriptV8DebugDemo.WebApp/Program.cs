@@ -9,7 +9,7 @@ namespace ClearScriptV8DebugDemo.WebApp
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            var client = new V8DebuggerHttpClient(9981);
+            using var client = new V8DebuggerHttpClient(9981);
 
             var app = builder.Build();
 
