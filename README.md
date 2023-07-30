@@ -13,11 +13,11 @@ Then start WebApp. It will show you link to debug via websocket protocol and lin
 
 Link to debug with Google Chrome looks so:
 
-devtools://devtools/bundled/js_app.html?experiments=true&v8only=true&ws=localhost:5259/debug
+<ins>devtools://devtools/bundled/js_app.html?experiments=true&v8only=true&ws=localhost:5259/debug</ins>
 
 It doesn't work for me to open direct link right away. But here is workaround. First open this link:
 
-devtools://devtools/bundled/js_app.html
+<ins>devtools://devtools/bundled/js_app.html</ins>
 
 Then open direct link, debug will start.
 
@@ -29,11 +29,11 @@ Then open direct link, debug will start.
 
 Ссылка для отладки через Google Chrome имеет следующий вид:
 
-devtools://devtools/bundled/js_app.html?experiments=true&v8only=true&ws=localhost:5259/debug
+<ins>devtools://devtools/bundled/js_app.html?experiments=true&v8only=true&ws=localhost:5259/debug</ins>
 
 У меня не работает переход по прямой ссылке, однако если вначале открыть:
 
-devtools://devtools/bundled/js_app.html
+<ins>devtools://devtools/bundled/js_app.html</ins>
 
 А затем прямую ссылку, то отладка запускается.
 
