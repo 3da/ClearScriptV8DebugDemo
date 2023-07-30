@@ -7,9 +7,9 @@ It also shows possibilities to debug and proxy debug with reverse websocket prox
 
 ## How to run
 
-First start ConsoleApp. ConsoleApp starts JS script and V8 engine goes to debug state.
+1. First start ConsoleApp. ConsoleApp starts JS script and V8 engine goes to debug state.
 
-Then start WebApp. It will show you link to debug via websocket protocol and link to debug with Google Chrome.
+1. Then start WebApp. It will show you link to debug via websocket protocol and link to debug with Google Chrome.
 
 Link to debug with Google Chrome looks so:
 
@@ -23,23 +23,23 @@ Then open direct link, debug will start.
 
 ## Как запускать
 
-Вначале запустите ConsoleApp. При этом запустится JS скрипт, а движок перейдёт в режим отдадки.
+1. Вначале запустите ConsoleApp. При этом запустится JS скрипт, а движок перейдёт в режим отдадки.
 
-Затем запустите WebApp. При этом будет выведена ссылка для отладки по протоколу websocket и ссылка для отладки через Google Chrome.
+1. Затем запустите WebApp. При этом будет выведена ссылка для отладки по протоколу websocket и ссылка для отладки через Google Chrome.
 
 Ссылка для отладки через Google Chrome имеет следующий вид:
 
 <ins>devtools://devtools/bundled/js_app.html?experiments=true&v8only=true&ws=localhost:5259/debug</ins>
 
-У меня не работает переход по прямой ссылке, однако если вначале открыть:
+У меня не работает переход по прямой ссылке сразу. Однако эту проблему можно обойти. Вначале откройте ссылку:
 
 <ins>devtools://devtools/bundled/js_app.html</ins>
 
-А затем прямую ссылку, то отладка запускается.
+Затем откройте прямую ссылку, отладка запустится.
 
 
 ## Useful links. Полезные ссылки
-https://github.com/microsoft/ClearScript
-https://github.com/microsoft/ClearScript/discussions/243
-https://microsoft.github.io/ClearScript/Details/Build.html
-https://chromedevtools.github.io/devtools-protocol/
+- https://github.com/microsoft/ClearScript
+- https://github.com/microsoft/ClearScript/discussions/243
+- https://microsoft.github.io/ClearScript/Details/Build.html
+- https://chromedevtools.github.io/devtools-protocol/
