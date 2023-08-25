@@ -1,5 +1,5 @@
 # ClearScriptV8DebugDemo
-This project demostrates how you can easily integrate JS engine V8 to emver JS script into C# project.
+This project demostrates how you can easily integrate JS engine V8 to embed JS script into C# project.
 It also shows possibilities to debug and proxy debug with reverse websocket proxy.
 
 Этот проект демонстрирует то, как можно просто интегрировать JS движок V8 для встраивания JS скриптов в проект на C#.
